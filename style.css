@@ -21,21 +21,36 @@
   border: none;
 }
 .secondary-cta {
-  padding: 0.4rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
-  font-size: 1rem;
-  background-color: var(--background-color);
-  color: var(--color-text-main);
-  border: none;
-  border: 1rem solid transparent;
-}
-body {
-  background-image: url("https://www.mintlify.com/hero/bg-dark.svg");
-  color: var(--color-text-main);
-  background-color: var(--background-color);
-  padding: 0.5rem 8rem;
+  border: 1px solid rgba(255, 255, 255, 0.256);
+  background: rgba(255, 255, 255, 0.176);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+body {
+  color: var(--color-text-main);
+  background-color: var(--background-color);
+}
+
+nav,
+main,
+footer {
+  padding: 1rem 10rem;
+}
+section {
+  margin: 5rem 0rem;
+}
+header {
+  background-image:
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.916)),
+    url("https://www.mintlify.com/hero/bg-dark.svg");
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -53,4 +68,44 @@ nav {
   font-weight: semi-bold;
   font-size: 1rem;
   text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero span {
+  background-color: var(--color-text-brand);
+  border: none;
+  color: var(--color-text-main);
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0rem;
+}
+.hero p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.cta-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.cta-group > div {
+  position: relative;
+  margin: 1rem 0;
+}
+.cta-group input {
+  width: 25rem;
+}
+.cta-group button {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
