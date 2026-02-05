@@ -109,3 +109,8 @@ nav {
   top: 0;
   right: 0;
 }
+
+.brands {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
