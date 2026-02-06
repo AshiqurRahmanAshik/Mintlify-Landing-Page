@@ -126,3 +126,26 @@ nav {
   margin: 1rem 0;
   color: var(--color-text-soft);
 }
+.enterprise h5 {
+  color: var(--color-text-brand);
+  font-weight: 400;
+}
+.enterprise h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.enterprise p {
+  color: var(--color-text-soft);
+}
+
+.enterprise > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.enterprise button {
+  height: fit-content;
+  padding: 1rem;
+  font-weight: 500;
+}
