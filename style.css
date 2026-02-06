@@ -149,3 +149,17 @@ nav {
   padding: 1rem;
   font-weight: 500;
 }
+
+.enterprise-card > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.enterprise-card h4 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.enterprise-image img {
+  width: 100%;
+  border-radius: 2rem;
+}
