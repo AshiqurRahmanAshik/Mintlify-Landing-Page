@@ -106,6 +106,7 @@ nav {
 }
 .cta-group button {
   position: absolute;
+
   top: 0;
   right: 0;
 }
@@ -162,4 +163,7 @@ nav {
 .enterprise-image img {
   width: 100%;
   border-radius: 2rem;
+}
+.documentation img {
+  width: 100%;
 }
