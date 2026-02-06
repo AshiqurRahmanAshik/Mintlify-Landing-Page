@@ -14,7 +14,7 @@ The landing page showcases the navbar, hero section, brands section and a footer
    git clone https://github.com/AshiqurRahmanAshik/Mintlify-Landing-Page.git
 3. Open `index.html` in any modern web browser
 
-👁️ [View Live Project](https://ashiqurrahmanashik.github.io/Cursor_Landing_Page/)
+👁️ [View Live Project](https://ashiqurrahmanashik.github.io/Mintlify-Landing-Page/)
 
 ## Project Glimpse
 
